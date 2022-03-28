@@ -125,5 +125,37 @@
     "price": "590",
     "inStock": 7,
     "type": "audio"
+  },
+  {
+    "id": 17,
+    "name": "Zoom H1n 2-Input / 2-Track Portable Handy Recorder",
+    "image": "https://www.bhphotovideo.com/images/images2500x2500/zoom_zh1n_h1n_handy_recorder_1381744.jpg",
+    "price": "500",
+    "inStock": 15,
+    "type": "audio"
+  },
+  {
+    "id": 18,
+    "name": "DJI Osmo Handheld 4K Camera & 3-Axis Gimbal",
+    "image": "https://www.abelcine.com/uploads/0/b/1/a/8/6/0b1a868dafa490903dfbddfe7b01d4d5/dji-osmo-close-up_v1.large.jpg",
+    "price": "200",
+    "inStock": 5,
+    "type": "video"
+  },
+  {
+    "id": 19,
+    "name": "Canon EF 800mm f/5.6L IS USM",
+    "image": "https://www.nicepng.com/png/detail/858-8584259_the-monopod-solution-canon-long-lens-camera.png",
+    "price": "2500",
+    "inStock": 2,
+    "type": "photography"
+  },
+  {
+    "id": 20,
+    "name": "DIGITEK® (DRL 12C) Professional 30.5 cm LED Ring Light with Tripod Stand",
+    "image": "https://m.media-amazon.com/images/I/61sL0MQSgBL._SY355_.jpg",
+    "price": "150",
+    "inStock": 12,
+    "type": "light"
   }
 ]

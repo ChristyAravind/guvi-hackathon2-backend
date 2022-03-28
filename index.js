@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import { ObjectId } from "mongodb";
 import { MongoClient } from "mongodb";
 import bcryptjs from "bcryptjs";
 import dotenv from "dotenv";
@@ -41,6 +42,16 @@ app.post("/createProducts", async function (req, res) {
   let db = client.db("equipment_hiring");
   const data = req.body;
   let val = await db.collection("products").insertMany(data);
+  await client.close();
+  res.json(val);
+});
+
+app.get("/Products/:id", async function (req, res) {
+  let client = await MongoClient.connect(url);
+  let db = client.db("equipment_hiring");
+  const { id } = req.params;
+  console.log(id);
+  let val = await db.collection("products").findOne({ _id: ObjectId(id) });
   await client.close();
   res.json(val);
 });
