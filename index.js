@@ -46,6 +46,7 @@ app.post("/createProducts", async function (req, res) {
   res.json(val);
 });
 
+// Get products
 app.get("/Products/:id", async function (req, res) {
   let client = await MongoClient.connect(url);
   let db = client.db("equipment_hiring");
